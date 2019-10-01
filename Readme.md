@@ -21,6 +21,7 @@ python 3.7
 1. 把 config.yml.sample 拷貝一份為 config.yml，並設定 2 個資料庫
 
 2. 執行指令
+
    `python3 diff.py`
 
 3. 首先會比對 2 個資料庫裡資料表的數量及差異資料表名稱 
