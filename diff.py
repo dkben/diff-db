@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# file encoding: utf-8 (for chinese)
 
 import sys
 import pymysql.cursors
