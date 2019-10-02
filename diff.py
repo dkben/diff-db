@@ -88,8 +88,8 @@ def get_diff_table_column():
             print("資料表：", table)
             print("DB1:", column1)
             print("DB2:", column2)
-            print("1 diff 2:", diff1)
-            print("2 diff 1:", diff2)
+            print("DB1 - DB2:", diff1)
+            print("DB2 - DB1:", diff2)
             print("============================================================")
 
 
@@ -105,6 +105,8 @@ def main():
     # print(set(tableList2) - set(tableList1))
     print("DB1 - DB2 =", diff(tableList1, tableList2))
     print("DB2 - DB1 =", diff(tableList2, tableList1))
+    print("============================================================")
+    print("============================================================")
     print("============================================================")
     print("雙方資料表內容比較，只比較雙方都有的資料表")
     print(tableList3)
