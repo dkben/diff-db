@@ -36,7 +36,7 @@ python 3.7
 
    ![image](https://drive.google.com/uc?export=view&id=1fAPfpZcAlONMoqX3GqQEfesMMefkvjR1)
 
-6. 比對結束後，再手動處理差異部份
+6. 比對結束後，再手動處理差異部份 (windows 建議使用 HeidiSQL 處理資料庫)
 
    ![image](https://drive.google.com/uc?export=view&id=1l8iG6FiToRC48-ApqowHW31TSsCmVvNN)
 
@@ -44,3 +44,10 @@ python 3.7
 
    ![image](https://drive.google.com/uc?export=view&id=1f55caVLpnR9dp-lKZd3tU9XYH1OdbyY6)
 
+8. 如果有差異的畫面 (windows)
+
+   ![image](https://drive.google.com/uc?export=view&id=1vIbv5Jk-ecy-mqASNcmRdyIpkjRNXmYO)
+   
+9. 比對結果相同的畫面 (windows) 
+
+   ![image](https://drive.google.com/uc?export=view&id=1frNBF6L0gShe40mlYgzCZNrSaNuYNNVq)
