@@ -87,9 +87,11 @@ def get_diff_table_column():
         diff2 = sorted(list(set(column2) - set(column1)))
         if len(diff1) > 0 or len(diff2) > 0:
             print("資料表：", table)
-            print("DB1:", column1)
-            print("DB2:", column2)
+            # print("DB1:", column1)
+            # print("DB2:", column2)
+            print("============================================================")
             print("DB1 - DB2:", diff1)
+            print("============================================================")
             print("DB2 - DB1:", diff2)
             print("============================================================")
 
