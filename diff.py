@@ -100,6 +100,7 @@ def main():
     get_tables1()
     get_tables2()
     get_tables3()
+    print("============================================================")
     print("資料表數量比較")
     # print("DB1：", tableList1)
     # print("DB2: ", tableList2)
