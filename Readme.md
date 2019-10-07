@@ -30,24 +30,24 @@ python 3.7
 
 4. 首先會比對 2 個資料庫裡資料表的數量及差異資料表名稱
 
-   ![image](https://drive.google.com/uc?export=view&id=15YrRRPW8ojR_ArXp55_Rmw_OQTwtEYoT)
+   ![image](Readme/001.png)
 
 5. 然後開始比對 2 個資料庫都有的資料表欄位，並顯示差異欄位
 
-   ![image](https://drive.google.com/uc?export=view&id=1fAPfpZcAlONMoqX3GqQEfesMMefkvjR1)
+   ![image](Readme/002.png)
 
 6. 比對結束後，再手動處理差異部份 (windows 建議使用 HeidiSQL 處理資料庫)
 
-   ![image](https://drive.google.com/uc?export=view&id=1l8iG6FiToRC48-ApqowHW31TSsCmVvNN)
+   ![image](Readme/003.png)
 
 7. 如果是在終端機中使用，畫面顯示上稍有不同
 
-   ![image](https://drive.google.com/uc?export=view&id=1f55caVLpnR9dp-lKZd3tU9XYH1OdbyY6)
+   ![image](Readme/004.png)
 
 8. 如果有差異的畫面 (windows)
 
-   ![image](https://drive.google.com/uc?export=view&id=1vIbv5Jk-ecy-mqASNcmRdyIpkjRNXmYO)
+   ![image](Readme/005.png)
    
 9. 比對結果相同的畫面 (windows) 
 
-   ![image](https://drive.google.com/uc?export=view&id=1frNBF6L0gShe40mlYgzCZNrSaNuYNNVq)
+   ![image](Readme/006.png)
