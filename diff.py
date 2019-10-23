@@ -110,6 +110,8 @@ def check_update():
             skip = str(input('有新版程式，請 git pull 更新...，按 y 直接比對 n 離開程式...[y/n]:'))
             if skip == 'n':
                 sys.exit()
+        else:
+            input('已經是最新版...繼續...')
 
 
 def main():
