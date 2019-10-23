@@ -26,7 +26,7 @@ python 3.7
 
 3. 視安裝環境而定，執行
 
-   `python3 diff.py` 或 `python diff.py` 
+   `python3 run.py` 或 `python run.py` 
 
 4. 首先會比對 2 個資料庫裡資料表的數量及差異資料表名稱
 
