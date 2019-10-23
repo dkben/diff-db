@@ -105,7 +105,7 @@ def check_update():
         local_hash = subprocess.check_output('git log --pretty="%h" -n1 HEAD'.split()).decode()[1:8]
         remote_hash = subprocess.check_output(
             'git ls-remote git@github.com:dkben/diff-db.git HEAD'.split()).decode()[0:7]
-        # print(local_hash, remote_hash)
+        print(local_hash, remote_hash)
         if local_hash != remote_hash:
             skip = str(input('有新版程式，請 git pull 更新...，按 y 直接比對 n 離開程式...[y/n]:'))
             if skip == 'n':
