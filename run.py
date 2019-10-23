@@ -24,7 +24,7 @@ tableList1 = []
 tableList2 = []
 tableList3 = []
 
-git_remote = 'git@github.com:dkben/diff-db.git'
+git_remote = cfg['git_remote']
 
 
 try:
