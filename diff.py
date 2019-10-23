@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # coding=UTF-8
 
+import os
+import subprocess
 import sys
 import pymysql.cursors
 import yaml
@@ -96,7 +98,23 @@ def get_diff_table_column():
             print("============================================================")
 
 
+def check_update():
+    check = str(input('是否檢查更新？y 檢查更新 n 直接比對...[y/n]:'))
+    if check == 'y':
+        print('檢查更新中...')
+        local_hash = subprocess.check_output('git log --pretty="%h" -n1 HEAD'.split()).decode()[1:8]
+        remote_hash = subprocess.check_output(
+            'git ls-remote git@203.75.119.252:ben/excel-to-db.git HEAD'.split()).decode()[0:7]
+        # print(local_hash, remote_hash)
+        if local_hash != remote_hash:
+            skip = str(input('有新版程式，請 git pull 更新...，按 y 直接比對 n 離開程式...[y/n]:'))
+            if skip == 'n':
+                sys.exit()
+
+
 def main():
+    print("============================================================")
+    check_update()
     get_tables1()
     get_tables2()
     get_tables3()
